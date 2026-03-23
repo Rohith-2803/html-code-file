@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+            background-size: cover;
+            min-height: 80vh;
+        }
+
+        .main {
+            padding: 1% 3% 3% 4%;
+            border-radius: 10px;
+            width: 30%;
+            margin: auto;
+            margin-top: 10%;
+            margin-left: 65px;
+        }
+
+        .redirect {
+            margin-top: 40px;
+        }
+
+        .main h3,
+        .redirect {
+            font-family: sans-serif;
+            text-align: center;
+
+        }
+
+        .main h3 {
+            margin-right: 20px;
+            margin-bottom: 30px;
+            font-size: 30px;
+            color: azure;
+            margin-left: -20px;
+
+        }
+
+
+        .sub input {
+            padding: 15px;
+            width: 89%;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 25px;
+
+        }
+
+        a {
+            color: rgb(8, 8, 2);
+            font-weight: bold;
+        }
+
+        .redirect {
+            color: rgb(89, 28, 211);
+
+        }
+
+        .sub input,
+        .fgt {
+            margin-bottom: 20px;
+        }
+
+        .fgt {
+            margin-left: 67%;
+        }
+
+        
+
+        .btn-grad {
+            background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+        }
+
+        .btn-grad {
+            margin: 10px;
+            width: 90%;
+            margin-left: 3%;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 0px #eee;
+            border-radius: 10px;
+            display: block;
+            outline: none;
+            border: none;
+        }
+
+        .btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form class="main" action="./biography.html">
+        <h3>LOGIN</h3>
+        <div class="sub">
+            <input type="email" placeholder="Enter Email id" required />
+        </div>
+        <div class="sub">
+            <input type="password" placeholder="Enter Password" required />
+        </div>
+
+        <div class="fgt">
+            <a href="./forget_password.html">Forgot Password?</a>
+        </div>
+
+        <div>
+            <button class="btn-grad">LOGIN</button>
+        </div>
+        <div class="redirect">
+            Doesn't have an account? <a href="./index.html">Create Account</a>
+        </div>
+    </form>
+</body>
+
+</html>
